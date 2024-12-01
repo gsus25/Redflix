@@ -35,21 +35,21 @@ Ingrese un comando (HD, MD, LD, STOP, PAUSE, PLAY): HD
 ```
 
 ### Comandos Básicos
-PLAY: Inicia la transmisión.
-PAUSE: Detiene temporalmente la transmisión.
-STOP: Finaliza la transmisión.
-HD, MD, LD: Cambia la calidad del video durante la transmisión.
+- PLAY: Inicia la transmisión.
+- PAUSE: Detiene temporalmente la transmisión.
+- STOP: Finaliza la transmisión.
+- HD, MD, LD: Cambia la calidad del video durante la transmisión.
 
 ### Compilación
 Para compilar el programa:
+```
 $ make
-
+```
 Para compilar facilitando la depuración con gdb:
-
+```
 $ make debug
-
+```
 Para compilar habilitando la herramienta AddressSanitizer, facilita la depuración en tiempo de ejecución:
-
+```
 $ make sanitize
-
-pero ahora con este proyecto 
+```
