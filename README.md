@@ -6,7 +6,6 @@ El Streamer se inicializa especificando el puerto y el archivo de video. Permite
 
 Para iniciar el servidor en un puerto específico:
 ```
-bash
 $ ./streamer 8080 video.txt
 Servidor escuchando en el puerto 8080.
 ```
